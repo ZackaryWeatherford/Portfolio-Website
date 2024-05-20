@@ -1,0 +1,68 @@
+#landing-title{
+    font-size: 60px;
+    margin-top: 35vh;
+    margin-bottom: 0px;
+    text-align: left;
+    position: relative;
+}
+
+#text-section{
+    display: flexbox;
+    width: 30vw;
+    text-align: left;
+    margin-left: 7vw;
+    overflow: auto;
+    position: relative;
+    overflow: auto;
+}
+
+#landing-container{
+    margin-bottom: 35vh;
+    display: flex;
+}
+
+#title-description{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(126, 126, 126);
+    margin-bottom: 3vh;
+    overflow: auto;
+    position: relative;
+}
+
+#landing-page-img{
+    width: 25%;
+    height:auto;
+    margin-right: 5vw;
+    float: right;
+    margin-top: 31vh;
+    margin-left: 20vw;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 500px;
+    object-fit: contain;
+}
+
+#resume-button{
+    border-color: rgb(253, 85, 85); 
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(253, 85, 85); 
+    color: #ffffff;
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    font-weight: bold;
+    transition: 150ms;
+    font-size: 23px;
+    margin-top: 3vh;
+}
+
+#resume-button:hover{
+    color:rgb(255, 255, 255);
+    border-color: rgb(253, 131, 131); 
+    background-color: rgb(253, 131, 131); 
+    border-style: solid;
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+nav{
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 55px;
+    transition: 150ms;
+    color: #000000;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    z-index: 10;
+} 
+
+.nav-margin{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.nav-button {
+    border-color: #00000000;
+    border-width: 0px;
+    padding-top: 1.2vh;
+    font-weight: bold;
+    font-size: 23px;
+    transition: 150ms;
+    scroll-behavior: smooth;
+}
+
+.nav-button:hover {
+    border-radius: 0;
+    padding-top: 0.0vh;
+    border-width: 0 0 0.8vh 0; 
+    border-color: rgb(253, 131, 131); 
+    border-style: solid; 
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+#nav-button-contact{
+    border-color: rgb(253, 85, 85); 
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(253, 85, 85); 
+    color: #ffffff;
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    font-weight: bold;
+    transition: 150ms;
+    margin-right: 1vw;
+    font-size: 23px;
+}
+
+#nav-button-contact:hover{
+    color:rgb(255, 255, 255);
+    border-color: rgb(253, 131, 131); 
+    background-color: rgb(253, 131, 131); 
+    border-style: solid;
+    cursor: pointer;
+}
+
+#contact-button-margin{
+    margin-left: 45vw; 
+}
+
+
+#nav-icon{
+    display: flex;
+    align-items: center; 
+    justify-content: left;
+    margin-right: 2vw;
+    margin-left: 0;
+    padding-top: 1.0vh;
+    width: 3vw;
+    cursor: pointer;
+}

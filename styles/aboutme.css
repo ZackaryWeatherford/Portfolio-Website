@@ -1,0 +1,28 @@
+#aboutme-section{
+    margin-top: 0vh;
+    padding-top: 0vh;
+    background-color: #314752;
+    padding-bottom: 12vh;
+    margin-bottom: 10vh;
+    color: white;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#aboutme-title{
+    margin-top: 0vh;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    font-size: 60px;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+#about-me-descrition{
+    font-size: 30px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    text-align: left;
+}
