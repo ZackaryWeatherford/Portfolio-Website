@@ -15,6 +15,15 @@ nav{
     z-index: 10;
 } 
 
+#nav-home-button{
+    margin-right: 3vw;
+
+}
+
+#nav-home-button:hover{
+    filter: grayscale(20%);
+}
+
 .nav-margin{
     margin-left: 1vw;
     margin-right: 1vw;
@@ -54,12 +63,12 @@ nav{
     transition: 150ms;
     margin-right: 1vw;
     font-size: 23px;
+    margin-bottom: 0.5vh;
 }
 
 #nav-button-contact:hover{
-    color:rgb(255, 255, 255);
-    border-color: rgb(253, 131, 131); 
-    background-color: rgb(253, 131, 131); 
+    border-color: rgb(255, 110, 110); 
+    background-color: rgb(255, 110, 110); 
     border-style: solid;
     cursor: pointer;
 }
@@ -67,7 +76,6 @@ nav{
 #contact-button-margin{
     margin-left: 45vw; 
 }
-
 
 #nav-icon{
     display: flex;

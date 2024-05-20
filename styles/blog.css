@@ -4,7 +4,7 @@
     color: white;
     background-color: #314752;
     padding-bottom: 30vh;
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
 }
 
 #blog-title{
@@ -38,15 +38,28 @@
     align-items: center;
     border-radius: 9px;
     max-width: 15vw;
+    animation: moveDown 1s;
 }
 
 #blog-post:hover{
     background-color: rgb(244, 244, 244);
     cursor: pointer;
+    animation-name: moveUp;
+    animation-duration: 1s;
 }
 
 .blog-post-img{
     width: 4vw;
     height: auto;
     object-fit: contain;
+}
+
+@keyframes moveUp{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-12px);}
+}
+
+@keyframes moveDown{
+    0%{transform: translateY(-12px);}
+    100%{transform: translateY(0px);}
 }

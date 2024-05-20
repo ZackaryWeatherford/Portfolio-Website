@@ -31,7 +31,7 @@
 }
 
 #landing-page-img{
-    width: 25%;
+    width: 21%;
     height:auto;
     margin-right: 5vw;
     float: right;
@@ -44,25 +44,47 @@
 }
 
 #resume-button{
-    border-color: rgb(253, 85, 85); 
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgba(253, 131, 131, 0); 
     border-style: solid;
-    border-radius: 5px;
-    background-color: rgb(253, 85, 85); 
-    color: #ffffff;
+    color: rgb(253, 131, 131); 
+    font-size: 23px;
     padding-top: 0.6vh;
     padding-bottom: 0.6vh;
     padding-left: 0.9vw;
     padding-right: 0.9vw;
-    font-weight: bold;
+    margin-left: 1vw;
+    box-shadow: rgb(253, 131, 131) 0 0 15px 1px;
     transition: 150ms;
-    font-size: 23px;
-    margin-top: 3vh;
+    margin-top: 2vh;
+    animation: moveUpDown 2s infinite;
 }
 
 #resume-button:hover{
-    color:rgb(255, 255, 255);
-    border-color: rgb(253, 131, 131); 
-    background-color: rgb(253, 131, 131); 
-    border-style: solid;
+    box-shadow: rgb(253, 131, 131) 0 0 21px 2px;
+    color: rgb(250, 102, 102);
     cursor: pointer;
+}
+
+#resume-button::active{
+    color: black;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes success{
+    0%{
+
+    }
+    100%{
+
+    }
 }

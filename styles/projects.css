@@ -30,11 +30,25 @@
     border-width: 5px;
     border-style: solid;
     text-align: center;
+    transition: 350ms;
+    animation: moveDown 1s;
 }
 
 .project-button:hover{
-    background-color: rgb(244, 244, 244);
+    background-color: rgb(235, 235, 235);
     cursor: pointer;
+    animation-name: moveUp;
+    animation-duration: 1s;
+}
+
+@keyframes moveUp{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-12px);}
+}
+
+@keyframes moveDown{
+    0%{transform: translateY(-12px);}
+    100%{transform: translateY(0px);}
 }
 
 .project-button-title{
