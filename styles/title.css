@@ -1,6 +1,6 @@
 #landing-title{
-    font-size: 60px;
-    margin-top: 35vh;
+    font-size: 70px;
+    margin-top: 29vh;
     margin-bottom: 0px;
     text-align: left;
     position: relative;
@@ -14,10 +14,11 @@
     overflow: auto;
     position: relative;
     overflow: auto;
+    padding-bottom: 10vh;
 }
 
 #landing-container{
-    margin-bottom: 35vh;
+    margin-bottom: 0vh;
     display: flex;
 }
 
@@ -28,42 +29,45 @@
     margin-bottom: 3vh;
     overflow: auto;
     position: relative;
+    margin-top: 6vh;
 }
 
 #landing-page-img{
     width: 21%;
-    height:auto;
+    height: 21%;
     margin-right: 5vw;
     float: right;
-    margin-top: 31vh;
+    margin-top: 23vh;
     margin-left: 20vw;
-    border-width: 5px;
+    border-width: 0px;
     border-style: solid;
-    border-radius: 500px;
-    object-fit: contain;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.479) 0 0 20px 1px;
+    border-radius: 50%;
 }
 
 #resume-button{
+
     background-color: white;
     border-radius: 20px;
     border-color: rgba(253, 131, 131, 0); 
     border-style: solid;
-    color: rgb(253, 131, 131); 
+    color: rgb(76, 174, 255); 
     font-size: 23px;
     padding-top: 0.6vh;
     padding-bottom: 0.6vh;
     padding-left: 0.9vw;
     padding-right: 0.9vw;
-    margin-left: 1vw;
-    box-shadow: rgb(253, 131, 131) 0 0 15px 1px;
+    margin-left: 10vw;
+    box-shadow: rgb(76, 174, 255) 0 0 15px 1px;
     transition: 150ms;
     margin-top: 2vh;
     animation: moveUpDown 2s infinite;
 }
 
 #resume-button:hover{
-    box-shadow: rgb(253, 131, 131) 0 0 21px 2px;
-    color: rgb(250, 102, 102);
+    box-shadow: rgb(58, 166, 254) 0 0 21px 2px;
+    color: rgb(58, 166, 254);
     cursor: pointer;
 }
 

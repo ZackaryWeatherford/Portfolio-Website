@@ -25,136 +25,37 @@
 
     <!--Navigation bar-->
     <nav>
-      <a href="../index.html" id="nav-home-button"><img src="../images/website-logo.png" id="nav-icon"></a>
-      <a href="#project-page" class="nav-margin"><button class="nav-button">Projects</button></a> 
-      <a href="#aboutme-section" class="nav-margin"><button class="nav-button">About Me</button></a>
-      <a href="#" onclick='window.open("https://zackdweatherford.wixsite.com/blog");return false;'><button class="nav-button">Blog</button></a>
-      <a href="mailto: zackdweatherford@gmail.com" target="_blank" id="contact-button-margin"><button id="nav-button-contact">Contact</button></a>
+      <div id="nav-logo">
+        <h3 id="nav-logo-bracket">{</h3>
+        <div id="nav-logo-div">
+          <h3 id="nav-logo-text">Zackary</h3>
+          <h3 id="nav-logo-text">Weatherford</h3>
+        </div>
+      </div>
+     
+      <div id="nav-button-div">
+        <a href="#project-page"><button class="nav-button">Projects</button></a> 
+        <a href="#aboutme-section"><button class="nav-button">About Me</button></a>
+        <a href="#" onclick='window.open("https://zackdweatherford.wixsite.com/blog");return false;'><button class="nav-button">Blog</button></a>
+      </div>
+
+      <div id="nav-contact-container">
+        <a href="mailto: zackdweatherford@gmail.com" target="_blank" id="contact-button-margin"><button id="nav-button-contact">Contact</button></a>
+        <h3 id="nav-logo-bracket">}</h3>
+      </div>
     </nav>
 
     <!--Beggining of page-->
     <div id="landing-container">
       <div id="text-section">
         <h5 id="landing-title">Hello, I'm Zackary Weatherford</h5>
-        <h1 id="title-description">I love working with web development, game development, and desktop application development. 
+        <h1 id="title-description">I love working with web, game, and desktop application development. 
           Check out some of my projects.</h1>
         <a href="../images/ZW Resume.pdf" download><button id="resume-button">Resume</button></a>
       </div>
       <img src="../images/face-pic-circular.png" id="landing-page-img">
     </div>
 
-  <!--About Me Section-->
-  <div id="aboutme-section">
-    <h5 id="aboutme-title">About me</h5>
-    
-    <h5 id="about-me-descrition">
-      I'm currently a Computer Science student at Ivy Tech. I plan on pursuing a bachelors after Ivy Tech and will finish getting my degree by May 2027. 
-      I love web, game, and desktop development. My current goal is to build up my portfolio to prepare myself for a internship.
-    </h5>
-
-    <a id="project-page"></a>
-  </div>
-
-  <!--Projects Section-->
-  <h3 id="projects-title">Projects</h3>
-
-  <div id="projects-section">
-    
-    <!--First Row-->
-    <div class="project-button">
-      <img src="../images/minecraft-project-image.png" class="project-button-img">
-      <h3 class="project-button-title">2D Minecraft</h3>
-      <h5 class="project-button-description">Minecraft game recreated in 2D</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/pixel-art-logo.png" class="project-button-img">
-      <h3 class="project-button-title">Pixel Art</h3>
-      <h5 class="project-button-description">Art creation tool using pixels</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/website-logo.png" class="project-button-img">
-      <h3 class="project-button-title">Portfolio Website</h3>
-      <h5 class="project-button-description">This website</h5>
-    </div>
-
-    <!--Second Row-->
-    <div class="project-button">
-      <img src="../images/chess-icon.jpg" class="project-button-img">
-      <h3 class="project-button-title">Chess</h3>
-      <h5 class="project-button-description">Game of Chess in Libgdx</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/libgdx-icon.png" class="project-button-img">
-      <h3 class="project-button-title">LibGdxPlus</h3>
-      <h5 class="project-button-description">Lightweight libGDX library</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/edu-icon.png" class="project-button-img">
-      <h3 class="project-button-title">LD Edu</h3>
-      <h5 class="project-button-description">Teaching about Learning Disabilities</h5>
-    </div>
-
-    <!--Third Row-->
-    <div class="project-button">
-      <img src="../images/to-do-list-icon.png" class="project-button-img">
-      <h3 class="project-button-title">To-Do-List</h3>
-      <h5 class="project-button-description">Simple JavaFX to-do-list</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/text-editor-icon.png" class="project-button-img">
-      <h3 class="project-button-title">MiniWrite</h3>
-      <h5 class="project-button-description">Light minimal text editor</h5>
-    </div>
-
-    <div class="project-button">
-      <img src="../images/weather-app-icon.png" class="project-button-img">
-      <h3 class="project-button-title">Weather App</h3>
-      <h5 class="project-button-description">Simple weather app using JavaScript API</h5>
-    </div>
-  </div>
-
-  <!--Blog Section-->
-  <div id="blog-section">
-
-    <h3 id="blog-title">Blog Posts</h3>
-    
-    <div id="blog-posts-allignment">
-
-      <!--First Row-->
-      <div id="blog-post">
-
-        <div>
-          <h3 class="project-button-title">AI Ethical Dillema</h3>
-          <h5 class="project-button-description">AI from a ethics viewpoint</h5>
-        </div>
-      </div>
-
-      <div id="blog-post">
-
-        <div>
-          <h3 class="project-button-title">The AI War</h3>
-          <h5 class="project-button-description">Google vs Microsoft AI War</h5>
-        </div>
-      </div>
-
-      <div id="blog-post">
-
-        <div>
-          <h3 class="project-button-title">Beginner Coder Tips</h3>
-          <h5 class="project-button-description">My personal tips as a beginner programmer</h5>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <p style="text-align: center; margin-top: 6vh;">&#169; Zackary Weatherford</p>
 
   </body>
 </html>
