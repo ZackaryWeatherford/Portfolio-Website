@@ -1,6 +1,5 @@
 #landing-title{
     font-size: 70px;
-    margin-top: 29vh;
     margin-bottom: 0px;
     text-align: left;
     position: relative;
@@ -20,6 +19,7 @@
 #landing-container{
     margin-bottom: 0vh;
     display: flex;
+    margin-top: 24vh;
 }
 
 #title-description{
@@ -37,7 +37,6 @@
     height: 21%;
     margin-right: 5vw;
     float: right;
-    margin-top: 23vh;
     margin-left: 20vw;
     border-width: 0px;
     border-style: solid;
@@ -91,4 +90,19 @@
     100%{
 
     }
+}
+
+.typing-effect{
+    font-size: 29px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: caret 0.75s steps(1) infinite;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    color: #5d5d5d;
+}
+
+@keyframes caret {
+    50% { border-color: transparent; }
 }

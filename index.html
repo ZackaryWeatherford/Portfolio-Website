@@ -14,43 +14,45 @@
     <link rel ="stylesheet" href="../styles/style.css" type = "text/css">
     <link rel="stylesheet" href="../styles/navigation.css" type="text/css">
     <link rel="stylesheet" href="../styles/title.css" type="text/css">
-    <link rel="stylesheet" href="../styles/aboutme.css" type="text/css">
-    <link rel="stylesheet" href="../styles/projects.css" type="text/css">
-    <link rel="stylesheet" href="../styles/blog.css" type="text/css">
+
 
     <title>Zackary Weatherford</title>
   </head>
 
   <body>
 
-    <!--Navigation bar-->
-    <nav>
-      <div id="nav-logo">
-        <h3 id="nav-logo-bracket">{</h3>
-        <div id="nav-logo-div">
-          <h3 id="nav-logo-text">Zackary</h3>
-          <h3 id="nav-logo-text">Weatherford</h3>
+    <!--Nav Bar-->
+    <header class="nav-header">
+      <nav>
+        <div>
+          <p class="nav-title-button">
+            ZW
+          </p>
         </div>
-      </div>
-     
-      <div id="nav-button-div">
-        <a href="#project-page"><button class="nav-button">Projects</button></a> 
-        <a href="#aboutme-section"><button class="nav-button">About Me</button></a>
-        <a href="#" onclick='window.open("https://zackdweatherford.wixsite.com/blog");return false;'><button class="nav-button">Blog</button></a>
-      </div>
 
-      <div id="nav-contact-container">
-        <a href="mailto: zackdweatherford@gmail.com" target="_blank" id="contact-button-margin"><button id="nav-button-contact">Contact</button></a>
-        <h3 id="nav-logo-bracket">}</h3>
-      </div>
-    </nav>
-
+        <div class="nav-button-section">
+          <p class="nav-button-new">
+            Projects
+          </p>
+          <p class="nav-button-new">
+            Blog
+          </p>
+          <p class="nav-button-new">
+            About Me
+          </p>
+          <p class="nav-contact">
+            Contact
+          </p>
+        </div>
+      </nav>
+    </header>
+    
     <!--Beggining of page-->
     <div id="landing-container">
       <div id="text-section">
         <h5 id="landing-title">Hello, I'm Zackary Weatherford</h5>
-        <h1 id="title-description">I love working with web, game, and desktop application development. 
-          Check out some of my projects.</h1>
+        <div class="typing-effect" id="typing" id="title-description"></div>
+        <script src="scripts/typewriter-effect.js" id="title-description"></script>
         <a href="../images/ZW Resume.pdf" download><button id="resume-button">Resume</button></a>
       </div>
       <img src="../images/face-pic-circular.png" id="landing-page-img">
