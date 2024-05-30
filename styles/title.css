@@ -1,5 +1,4 @@
-#landing-title{
-    font-size: 70px;
+.landing-title{
     margin-bottom: 0px;
     text-align: left;
     position: relative;
@@ -17,19 +16,9 @@
 }
 
 #landing-container{
-    margin-bottom: 0vh;
+    margin-bottom: 40vh;
     display: flex;
     margin-top: 24vh;
-}
-
-#title-description{
-    text-align: left;
-    font-size: 25px;
-    color: rgb(126, 126, 126);
-    margin-bottom: 3vh;
-    overflow: auto;
-    position: relative;
-    margin-top: 6vh;
 }
 
 #landing-page-img{
@@ -46,7 +35,6 @@
 }
 
 #resume-button{
-
     background-color: white;
     border-radius: 20px;
     border-color: rgba(253, 131, 131, 0); 
@@ -68,10 +56,6 @@
     box-shadow: rgb(58, 166, 254) 0 0 21px 2px;
     color: rgb(58, 166, 254);
     cursor: pointer;
-}
-
-#resume-button::active{
-    color: black;
 }
 
 @keyframes moveUpDown {
@@ -105,4 +89,13 @@
 
 @keyframes caret {
     50% { border-color: transparent; }
+}
+
+.text-description{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 25px;
+    color: rgb(104, 104, 104);
+    line-height: 40px;
+    padding-bottom: 10vh;
 }
