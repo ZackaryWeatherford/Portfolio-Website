@@ -8,39 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="images/website-logo.png">
 
     <!--Stylesheets-->
-
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/text.css">
+    <link rel="stylesheet" href="styles/color.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/animation.css">
+    <link rel="stylesheet" href="styles/gradients.css">
+    <link rel="stylesheet" href="styles/roboto.css">
+    <link rel="stylesheet" href="styles/hover.css">
 
 
     <title>Zackary Weatherford</title>
   </head>
 
-  <body>
+  <body class="no-margin">
 
     <!--Nav Bar-->
-    <header>
-      <nav>
-        <div>
-          <p>
-            ZW
-          </p>
+    <header class="flex flex-center-horizontally bring-to-top ">
+      <nav class="w-45 flex-center flex-direction-row flex-space-between flex-center-vertically flex-center-horizontally box-blue rounded-lg bk-white mt-20px h-7vh position-fx">
+
+        <div class="pl-2vw">
+          <p class="font-40px">ZW</p>
         </div>
 
-        <div>
-          <p>
-            Projects
-          </p>
-          <p>
-            Blog
-          </p>
-          <p>
-            About Me
-          </p>
-          <p>
-            Contact
-          </p>
+        <div class="pr-2vw">
+          <a class="pr-2vw">Projects</a>
+          <a class="pr-2vw">Blog</a>
+          <a class="pr-2vw">About Me</a>
+          <a class="pr-2vw">Contact</a>
         </div>
       </nav>
     </header>
@@ -48,27 +45,26 @@
     <main>
 
       <!--Beggining of page-->
-      <section>
-        <div>
-          <h1>Hello, I'm <span>Zackary Weatherford</span></h1>
+      <section class="flex-center pb-40vh pt-30vh lb-bk">
+        <div class="flex-center flex-direction-column pl-20vw">
+          <h1 class="roboto-bold font-60px">Hello, I'm <span class="lb-gradient-color">Zackary Weatherford</span></h1>
 
-          <div class="typing-effect" id="typing" id="title-description"></div>
+          <div class="typing-effect font-30px" id="typing" id="title-description"></div>
           <script src="scripts/typewriter-effect.js" id="title-description"></script>
 
-          <a href="images/ZW%20Resume.pdf" download>
-            <button id="resume-button">Resume</button>
+          <a href="images/ZW%20Resume.pdf" download class="mt-5vh">
+            <button class="rounded-lg font-25px rmv-bk border-lb solid-border border-w-2px resume-button-padding animation-upDownInf lb-wh-hover box-blue lb-shadow-hover">Resume</button>
           </a>
         </div>
         
-        <div>
-          <img src="images/face-pic-circular.png" alt="picture of my face" width="200px">
+        <div class="flex-center">
+          <img src="images/face-pic-circular.png" alt="picture of my face" class="obj-fit w-35">
         </div>
 
       </section>
 
-      <p>Testing</p>
 
-      <section>
+      <section class="">
 
         <div>
           <h2>SKILLS</h2>

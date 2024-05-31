@@ -6,7 +6,30 @@
     color: rgb(70, 70, 70);
 }
 
-.blue-white-center-gradient{
-    background: rgb(225,247,255);
-    background: radial-gradient(circle, rgba(225,247,255,1) 0%, rgba(152,239,251,1) 100%);
+.white-font{
+    color: white;
+}
+
+.lightBlue-font{
+    color: rgb(95, 180, 255);
+}
+
+.darkBlue-font{
+    color: rgb(95, 180, 255);
+}
+
+.box-blue{
+    box-shadow: 0px 0px 15px 1px rgb(130, 192, 255);
+}
+
+.bk-white{
+    background-color: white;
+}
+
+.rmv-bk{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.border-lb{
+    border-color: rgb(130, 192, 255);
 }
