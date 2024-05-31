@@ -16,9 +16,10 @@
 }
 
 #landing-container{
-    margin-bottom: 40vh;
+    padding-bottom: 10vh;
     display: flex;
-    margin-top: 24vh;
+    padding-top: 30vh;
+    background-color: rgb(255, 255, 255);
 }
 
 #landing-page-img{
@@ -99,3 +100,12 @@
     line-height: 40px;
     padding-bottom: 10vh;
 }
+
+.skills-section{
+    margin-top: 0vh;
+    padding-bottom: 30vh;
+    margin-bottom: 0;
+}
+
+
+

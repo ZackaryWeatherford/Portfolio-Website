@@ -43,9 +43,18 @@ nav{
 }
 
 .nav-button-new{
-    color: rgb(70, 70, 70);
+    color: rgb(92, 92, 92);
     font-size: 20px;
     margin-left: 2vw;
+    transition: 350ms;
+    animation: moveDown 1s;
+}
+
+.nav-button-new:hover{
+    color: rgb(56, 56, 56);
+    cursor: pointer;
+    animation-name: moveUp;
+    animation-duration: 1s;
 }
 
 .nav-button-section{
@@ -75,5 +84,19 @@ nav{
 .nav-contact:hover{
     color: white;
     background-color: rgb(119, 196, 255);;
+}
+
+@keyframes moveUp{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(-3px);}
+}
+
+@keyframes moveDown{
+    0%{transform: translateY(-3px);}
+    100%{transform: translateY(0px);}
+}
+    
+.upDownAnimation{
+    animation: moveUpDown 2s infinite;
 }
 

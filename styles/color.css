@@ -1,0 +1,12 @@
+.light-black-color{
+    color: rgb(25, 25, 25);
+}
+
+.dark-gray-color{
+    color: rgb(70, 70, 70);
+}
+
+.blue-white-center-gradient{
+    background: rgb(225,247,255);
+    background: radial-gradient(circle, rgba(225,247,255,1) 0%, rgba(152,239,251,1) 100%);
+}

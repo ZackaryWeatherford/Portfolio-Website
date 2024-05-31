@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(239, 251, 255);
+    color: #3d4058;
+    font-family: Roboto;
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+html{
+    background-color: #effbff;
+}
+
+
+.font-20px{
+    font-size: 20px;
+}
+
+.font-30px{
+    font-size: 30px;
+}
+
+.font-40px{
+    font-size: 40px;
+}
+
+.font-50px{
+    font-size: 50px;
+}
+
+.font-60px{
+    font-size: 60px;
+}
+
+.font-70px{
+    font-size: 70px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.blue-color-gradient{
+    background: -webkit-linear-gradient(0deg, rgb(33, 144, 255) 0%, rgb(119, 203, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.darkblue-color-gradient{
+    background: -webkit-linear-gradient(0deg, rgb(160, 207, 255) 0%, rgb(0, 157, 255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.white-section{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30vh;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.padding-top{
+    padding-top: 5vh;
+}
+
+.padding-bottom{
+    padding-bottom: 5vh;
+}
+
+.no-margin{
+    margin: 0; 
+}
+
+.blue-background-gradient{
+    background: rgb(43,161,200);
+    background: linear-gradient(0deg, rgba(43,161,200,1) 0%, rgba(239,251,255,1) 100%);
+}
+
+.blue-background{
+    background-color: rgb(237, 251, 255);
+}
+
+.center-alignment{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.purple-color-change{
+    background: linear-gradient(90deg, #002d88, #0f5bc5, #6bacfc, #a2d8ff);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: wave 8s infinite;
+}
+
+@keyframes wave {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  
