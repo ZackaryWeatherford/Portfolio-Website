@@ -4,5 +4,13 @@
 }
 
 html{
+    scroll-behavior: smooth;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
 
 }
