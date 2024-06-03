@@ -34,6 +34,10 @@
     line-height: 2.5;
 }
 
+.lh-medium{
+    line-height: 2.0;
+}
+
 .ws{
     word-spacing: 40px;
 }

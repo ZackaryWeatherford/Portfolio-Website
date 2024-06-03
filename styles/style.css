@@ -1,11 +1,8 @@
-.body{
-    font-family: sans-serif;
-    
-}
-
-html{
+.body, html{
+    background-color: rgb(245, 252, 255);
     scroll-behavior: smooth;
 }
+
 
 a{
     color: black;

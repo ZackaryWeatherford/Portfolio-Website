@@ -10,7 +10,7 @@
     color: rgb(123, 123, 123);
 }
 
-.white-font{
+.white{
     color: white;
 }
 
@@ -36,4 +36,8 @@
 
 .border-lb{
     border-color: rgb(130, 192, 255);
+}
+
+.lb-bk{
+    background-color: rgb(245, 252, 255);
 }

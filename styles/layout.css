@@ -278,6 +278,10 @@
     width: 25%;
 }
 
+.w-20{
+    width: 20%;
+}
+
 .w-10{
     width: 10%;
 }
@@ -386,6 +390,10 @@
     border-style: solid;
 }
 
+.border-w-3-5px{
+    border-width: 3.5px;
+}
+
 .border-w-2px{
     border-width: 2px;
 }
@@ -407,10 +415,15 @@
 }
 
 
-
-
-
 .button-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.large-button-padding{
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;

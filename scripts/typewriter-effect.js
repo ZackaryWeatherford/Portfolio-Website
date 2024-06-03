@@ -1,7 +1,7 @@
 const sentences = [
-    "I love web development.",
-    "I love game development.",
-    "I love desktop development."
+    "I love web development",
+    "I love game development",
+    "I love desktop development"
 ];
 let currentSentence = 0;
 let currentChar = 0;
