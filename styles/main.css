@@ -1,0 +1,9 @@
+@import 'base/reset.css';
+@import 'base/fonts.css';
+@import 'layouts/navbar.css';
+@import 'layouts/mainpage.css';
+@import 'base/typography.css';
+@import 'base/spacing.css';
+@import 'base/dimensions.css';
+@import 'components/buttons.css';
+@import 'base/color.css'

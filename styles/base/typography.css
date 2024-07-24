@@ -1,0 +1,72 @@
+
+
+.font-size-sm{
+    font-size: 1rem;
+}
+
+.font-size-md{
+    font-size: 1.5rem;
+}
+
+.font-size-lg{
+    font-size: 2.5rem;
+}
+
+/* typography.css */
+
+/* Font size classes */
+.font-size-xs { font-size: 0.75rem; }   /* Extra small text */
+.font-size-sm { font-size: 0.875rem; }  /* Small text */
+.font-size-md { font-size: 1rem; }      /* Medium text (default size) */
+.font-size-lg { font-size: 1.25rem; }   /* Large text */
+.font-size-xl{font-size: 3.5rem; }      /* Extra large text */
+.font-size-xxl { font-size: 2rem; }     /* Extra extra large text */
+
+/* Font weight classes */
+.font-weight-light { font-weight: 300; }   /* Light font weight */
+.font-weight-normal { font-weight: 400; }  /* Normal font weight */
+.font-weight-medium { font-weight: 500; }  /* Medium font weight */
+.font-weight-bold { font-weight: 700; }    /* Bold font weight */
+.font-weight-bolder { font-weight: 900; }  /* Bolder font weight */
+
+/* Font style classes */
+.font-italic { font-style: italic; }       /* Italic text */
+.font-normal { font-style: normal; }       /* Normal text */
+
+/* Text alignment classes */
+.text-left { text-align: left; }           /* Left aligned text */
+.text-center { text-align: center; }       /* Center aligned text */
+.text-right { text-align: right; }         /* Right aligned text */
+.text-justify { text-align: justify; }     /* Justified text */
+
+/* Text transform classes */
+.text-uppercase { text-transform: uppercase; }   /* Uppercase text */
+.text-lowercase { text-transform: lowercase; }   /* Lowercase text */
+.text-capitalize { text-transform: capitalize; } /* Capitalized text */
+
+/* Text decoration classes */
+.text-underline { text-decoration: underline; }       /* Underlined text */
+.text-line-through { text-decoration: line-through; } /* Strikethrough text */
+.text-no-decoration { text-decoration: none; }        /* No text decoration */
+
+/* Line height classes */
+.line-height-1 { line-height: 1; }              /* Line height 1 */
+.line-height-1-5 { line-height: 1.5; }          /* Line height 1.5 */
+.line-height-2 { line-height: 2; }              /* Line height 2 */
+
+/* Letter spacing classes */
+.letter-spacing-tight { letter-spacing: -0.05em; } /* Tight letter spacing */
+.letter-spacing-normal { letter-spacing: normal; } /* Normal letter spacing */
+.letter-spacing-wide { letter-spacing: 0.05em; }   /* Wide letter spacing */
+
+/* Text color classes */
+.text-primary { color: #007bff; }    /* Primary color text */
+.text-secondary { color: #6c757d; }  /* Secondary color text */
+.text-success { color: #28a745; }    /* Success color text */
+.text-danger { color: #dc3545; }     /* Danger color text */
+.text-warning { color: #ffc107; }    /* Warning color text */
+.text-info { color: #17a2b8; }       /* Info color text */
+.text-light { color: #f8f9fa; }      /* Light color text */
+.text-dark { color: #343a40; }       /* Dark color text */
+.text-muted { color: #6c757d; }      /* Muted color text */
+.text-white { color: #fff; }         /* White color text */

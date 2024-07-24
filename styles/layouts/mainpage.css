@@ -1,0 +1,13 @@
+
+.main-section{
+    
+}
+
+.title-section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 10rem;
+}

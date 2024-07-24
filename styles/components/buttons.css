@@ -1,0 +1,13 @@
+.button-black{
+    padding: 0.4rem 1.1rem 0.4rem 1.1rem;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    transition: 150ms;
+}
+
+.button-black:hover{
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
