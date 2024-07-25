@@ -11,3 +11,17 @@
     background-color: #2d2d2d;
     cursor: pointer;
 }
+
+.github-button{
+    border: 2px solid;
+    border-color: #ff9823;
+    color: #ff9823;
+    transition: 150ms;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.github-button:hover{
+    background-color: #ff9823;
+    color: white;
+}

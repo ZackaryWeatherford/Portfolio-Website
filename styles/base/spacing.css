@@ -25,6 +25,10 @@
 .mr-5 { margin-right: 2rem; }
 .mr-6 {margin-right: 2.5rem; }
 .mr-7 {margin-right: 3rem; }
+.mr-8 {margin-right: 3.5rem; }
+.mr-9 {margin-right: 4rem; }
+.mr-10 {margin-right: 4.5rem; }
+.mr-11 {margin-right: 5rem; }
 
 /* Margin bottom classes */
 .mb-0 { margin-bottom: 0; }
@@ -131,3 +135,13 @@
     align-items: center;
 }
 
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.display-inline-block{
+    display: inline-block;
+}

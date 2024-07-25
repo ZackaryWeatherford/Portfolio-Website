@@ -19,6 +19,9 @@
 .font-size-sm { font-size: 0.875rem; }  /* Small text */
 .font-size-md { font-size: 1rem; }      /* Medium text (default size) */
 .font-size-lg { font-size: 1.25rem; }   /* Large text */
+.font-size-lgx2 { font-size: 1.5rem; }
+.font-size-lgx3 { font-size: 2rem; }
+.font-size-lgx4 { font-size: 2.5rem; } 
 .font-size-xl{font-size: 3.5rem; }      /* Extra large text */
 .font-size-xxl { font-size: 2rem; }     /* Extra extra large text */
 

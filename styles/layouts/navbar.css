@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     padding-top: 1.25rem;
+    padding-bottom: 1rem;
     align-items: center;
     color: #242424;
     position: fixed;
     width: 100vw;
     top: 0%;
+    background-color: white;
 }
 
 .navbar-title{
@@ -34,7 +36,7 @@
 
 .navbar-contact{
     color: white;
-    background-color: #6ec2ff;
+    background-color: #3fadfc;
     padding: 0.4rem 1rem 0.4rem 1rem;
     border-radius: 20px;
     text-decoration: none;
@@ -42,5 +44,5 @@
 }
 
 .navbar-contact:hover{
-    background-color: #4cb3fd;
+    background-color: #5fbcfe;
 }

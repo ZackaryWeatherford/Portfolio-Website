@@ -1,7 +1,4 @@
 
-.main-section{
-    
-}
 
 .title-section{
     width: 100vw;
@@ -10,4 +7,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding-bottom: 10rem;
+}
+
+.skills-section{
+    margin-bottom: 20rem;
 }
