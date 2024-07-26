@@ -5,12 +5,24 @@
     border-radius: 25px;
     border: none;
     transition: 150ms;
+    animation: upToDown 2.5s infinite;
 }
 
 .button-black:hover{
-    background-color: #2d2d2d;
+    background-color: #323232;
     cursor: pointer;
 }
+
+@keyframes upToDown {
+  0%, 100% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(-4px);
+}
+
+}
+
 
 .github-button{
     border: 2px solid;

@@ -6,9 +6,44 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+  
+}
+
+.title-details{
+    width: 25%;
+}
+
+@media screen and (max-width: 1050px) {
+    .title-section{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8rem;
+        gap: 10rem;
+    }
+    .title-details{
+        width: 40%;
+    }
+    .title-section > img{
+        display: block;
+        justify-self:start;
+    }
+    .title-links{
+        
+    }
+    .skills-section{
+        flex-direction: column;
+        gap: 10rem;
+    }
+    .projects-section{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
 }
 
 .skills-section{
     margin-bottom: 20rem;
 }
+
